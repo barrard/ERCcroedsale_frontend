@@ -3,7 +3,7 @@ App = {
   web3Provider: null,
   contracts: {},
   address:{
-    ERC721MintableToken:"0x0e76f9872c18966094ee2362d0aab5faf1932e3e"
+    ERC721MintableToken:"0x8D1f10dA2f5A9C2FF4B7fC47e50EF36026F53925"
     // ERC721MintableToken:"0x8d1f10da2f5a9c2ff4b7fc47e50ef36026f53925"//rinkeby address
   },
   data:{},

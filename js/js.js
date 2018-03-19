@@ -3,8 +3,8 @@ App = {
   web3Provider: null,
   contracts: {},
   address:{
-    // ERC721MintableToken:"0xee308f9f50e06383ddab6e17f1e06b647794b9ee"
-    ERC721MintableToken:"0x8d1f10da2f5a9c2ff4b7fc47e50ef36026f53925"//rinkeby address
+    ERC721MintableToken:"0x0e76f9872c18966094ee2362d0aab5faf1932e3e"
+    // ERC721MintableToken:"0x8d1f10da2f5a9c2ff4b7fc47e50ef36026f53925"//rinkeby address
   },
   data:{},
   abi:{},
@@ -146,6 +146,7 @@ App = {
             console.log(r.toNumber());
             var _token_id = (r.toNumber());
             App.contracts.ERC721MintableToken.spend_CS_Token(_token_id, (e, r)=>{
+              playSound('small_crowd_cheering_and_clapping.wav.mp3');
               console.log(e)
               console.log(r)
             })

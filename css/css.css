@@ -26,12 +26,12 @@
 .user_stats{
   background: rgba(20, 10, 200, 0.5);
   color: antiquewhite;
-  font: 2em;
+  font-size: 2em;
 
 }
 
 .sidebar{
   background: rgba(100, 10, 200, 0.5);
   color: antiquewhite;
-  font: 2em;
+  font-size: 2em;
 }

@@ -30,6 +30,9 @@
 
 }
 
+.topbar{
+  background: rgba(10, 222, 10, 0.8);
+}
 .sidebar{
   background: rgba(100, 10, 200, 0.9);
   color: antiquewhite;

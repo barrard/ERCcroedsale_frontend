@@ -72,7 +72,7 @@ App = {
     ]
 
     data_array.forEach((i, x)=>{
-      var sidebar_el = $('.sidebar')[0];
+      var sidebar_el = $('.topbar')[0];
       console.log(i)
       App.contracts.ERC721MintableToken[i]((e, r)=>{
         if(e){

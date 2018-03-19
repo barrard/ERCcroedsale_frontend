@@ -24,14 +24,14 @@
 }
 
 .user_stats{
-  background: rgba(20, 10, 200, 0.5);
+  background: rgba(20, 10, 200, 0.8);
   color: antiquewhite;
   font-size: 2em;
 
 }
 
 .sidebar{
-  background: rgba(100, 10, 200, 0.5);
+  background: rgba(100, 10, 200, 0.9);
   color: antiquewhite;
   font-size: 2em;
 }

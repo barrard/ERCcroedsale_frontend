@@ -1,5 +1,5 @@
 #background_image { 
-  background: url(../island_table.jpg) no-repeat center center fixed; 
+  background: url(../scaled_island_table.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -26,10 +26,12 @@
 .user_stats{
   background: rgba(20, 10, 200, 0.5);
   color: antiquewhite;
+  font: 2em;
 
 }
 
 .sidebar{
   background: rgba(100, 10, 200, 0.5);
   color: antiquewhite;
+  font: 2em;
 }
